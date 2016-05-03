@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<title> homework 6</title>
+</head>
+<body>
+
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").toggle();
+    });
+});
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div").animate({left: '250px'});
+    });
+});
+(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide("fast");
+    });
+});
+
+$(document).ready(function(){
+    $("p").hide();
+
+    $("button").click(function(){
+        $("p").show();
+    });
+});
+
+$(document). ready (function ()
+	$("button").click (function (){
+		$("div1"). empty():
+
+	}));
+$(document).ready(function (){
+	$ ("button").click (function
+		(){
+			$("this").hide();
+		})
+})
+
+(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown(5000);
+    });
+    $("#stop").click(function(){
+        $("#panel").stop();
+    });
+});
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+
+</script>
+
+<style>
+    .first-div {
+        background:#984788;
+        height:80px;
+        width: 100px;
+    }
+
+    #div1 {
+        height:100px;
+        width: 200px;
+        border: 2px solid blue;
+    }
+</style>
+
+	<div class="first-div"></div>
+	<button id="hide"> hide </button>
+	<button id ="show"></button>
+	<p> show moving slow </p>
+	<p> moving very slow</p>
+	<div id="div1"></div>
+
+	<p>click</p>
+
+
+</body>
+</html>
